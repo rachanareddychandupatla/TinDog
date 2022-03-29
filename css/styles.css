@@ -54,12 +54,12 @@ body {
   margin: 5% 3% 5% 0;
 }
 
-.fa-solid {
+.features-icon-color {
   color: #ef8172;
   margin-bottom: 1rem;
 }
 
-.fa-solid:hover {
+.features-icon-color:hover {
   color: #ff4c68;
 }
 
@@ -118,6 +118,28 @@ h2 {
 
 .pricing-column {
   padding: 3% 2%;
+}
+
+#cta {
+  text-align: center;
+  background-color: #ff4c68;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 700;
+}
+
+#footer {
+  text-align: center;
+  padding: 3%;
+}
+
+.icons-padding {
+  padding: 1%;
+  margin-bottom: 1%;
 }
 
 @media (max-width: 991.20px) {

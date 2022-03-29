@@ -33,13 +33,13 @@
         <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="">Contact</a>
+              <a class="nav-link" aria-current="page" href="#footer">Contact</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="">Pricing</a>
+              <a class="nav-link" href="#pricing">Pricing</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="">Download</a>
+              <a class="nav-link" href="#cta">Download</a>
             </li>
           </ul>
         </div>
@@ -67,19 +67,19 @@
 
   <section id="features" class="row container-fluid">
     <div class="col-lg-4 feature-box">
-      <i class="fa-solid fa-circle-check fa-4x"></i>
+      <i class="fa-solid fa-circle-check fa-4x features-icon-color"></i>
       <h3 class="font-style">Easy to use.</h3>
       <p class="paragraph-style">So easy to use, even your dog could do it.</p>
     </div>
 
     <div class="col-lg-4 feature-box">
-      <i class="fa-solid fa-bullseye fa-4x"></i>
+      <i class="fa-solid fa-bullseye fa-4x features-icon-color"></i>
       <h3 class="font-style">Elite Clientele</h3>
       <p class="paragraph-style">We have all the dogs, the greatest dogs.</p>
     </div>
 
     <div class="col-lg-4 feature-box">
-      <i class="fa-solid fa-heart fa-4x"></i>
+      <i class="fa-solid fa-heart fa-4x features-icon-color"></i>
       <h3 class="font-style">Guaranteed to work.</h3>
       <p class="paragraph-style">Find the love of your dog's life or your money back.</p>
     </div>
@@ -88,29 +88,6 @@
   <!-- Testimonials -->
 
   <section id="testimonials">
-    <!-- <div id="testimonial-carousel" class="carousel slide" data-ride="false">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <h2>
-              I no longer have to sniff other dogs for love. I've found the hottest
-              Corgi on TinDog. Woof.
-            </h2>
-            <img class="testimonial-image" src="images/dog-img.jpg" alt="dog-profile" />
-            <em>Pebbles, New York</em>
-          </div>
-          <div class="carousel-item">
-           <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
-           <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
-           <em>Beverly, Illinois</em>
-          </div>
-        </div>
-        <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon"></span>
-        </a>
-        <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
-          <span class="carousel-control-next-icon"></span>
-        </a>
-      </div> -->
     <div id="testimonial-carousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
       <div class="carousel-inner">
         <div class="carousel-item active">
@@ -156,7 +133,7 @@
 
     <div class="row text-center">
       <div class="pricing-column col-lg-4 col-md-6">
-        <div class="card">
+        <div class="card h-100">
           <div class="card-header">
             <h3>Chihuahua</h3>
           </div>
@@ -165,14 +142,16 @@
             <p>5 Matches Per Day</p>
             <p>10 Messages Per Day</p>
             <p>Unlimited App Usage</p>
-            <div class="d-grid">
-            <button type="button" class="btn btn-lg btn-outline-dark">Sign Up</button>
           </div>
+          <div class="card-footer">
+            <div class="d-grid">
+              <button type="button" class="btn btn-lg btn-outline-dark">Sign Up</button>
+            </div>
           </div>
         </div>
       </div>
       <div class="pricing-column col-lg-4 col-md-6">
-        <div class="card">
+        <div class="card h-100">
           <div class="card-header">
             <h3>Labrador</h3>
           </div>
@@ -181,6 +160,8 @@
             <p>Unlimited Matches</p>
             <p>Unlimited Messages</p>
             <p>Unlimited App Usage</p>
+          </div>
+          <div class="card-footer">
             <div class="d-grid">
               <button type="button" class="btn btn-lg btn-dark">Sign Up</button>
             </div>
@@ -189,18 +170,22 @@
       </div>
       
       <div class="pricing-column col-lg-4">
-        <div class="card">
+        <div class="card h-100">
           <div class="card-header">
-            <h3>Labrador</h3>
+            <h3>Mastiff</h3>
           </div>
           <div class="card-body">
-            <h2>$49 / mo</h2>
+            <h2>$99 / mo</h2>
+            <p>Priority Listing</p>
             <p>Unlimited Matches</p>
             <p>Unlimited Messages</p>
             <p>Unlimited App Usage</p>
+          </div>
+            <div class="card-footer">
             <div class="d-grid">
               <button type="button" class="btn btn-lg btn-dark">Sign Up</button>
             </div>
+          </div>
           </div>
         </div>
       </div>
@@ -211,15 +196,20 @@
   <!-- Call to Action -->
 
   <section id="cta">
-    <h3>Find the True Love of Your Dog's Life Today.</h3>
-    <button type="button">Download</button>
-    <button type="button">Download</button>
+    <div class="container-fluid">
+    <h3 class="text-light">Find the True Love of Your Dog's Life Today.</h3>
+    <button type="button" class="btn btn-lg btn-dark download-button"><i class="fa-brands fa-apple"></i> Download</button>
+    <button type="button" class="btn btn-lg btn-outline-light download-button"><i class="fa-brands fa-google-play"></i> Download</button>
+  </div>
   </section>
 
   <!-- Footer -->
 
   <footer id="footer">
-    <p>© Copyright TinDog</p>
+    <div class="container-fluid">
+    <i class="fa-brands fa-twitter icons-padding"></i> <i class="fa-brands fa-facebook-f icons-padding"></i> <i class="fa-brands fa-instagram icons-padding"></i> <i class="fa-solid fa-envelope icons-padding"></i>
+    <p>© Copyright 2022 TinDog</p>
+  </div>
   </footer>
 </body>
 
