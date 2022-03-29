@@ -3,12 +3,14 @@
 }
 
 .container-fluid {
-  padding: 3% 15%;
+  padding: 3% 15% 7%;
 }
 
 #features {
-    padding: 7% 15%;
-  }
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+}
 
 .navbar-brand {
   font-family: "Ubuntu";
@@ -42,8 +44,10 @@ body {
 }
 
 .rotate-img {
-  width: 60%;
+  width: 25%;
   transform: rotate(25deg);
+  position: absolute;
+  right: 20%;
 }
 
 .download-button {
@@ -70,6 +74,60 @@ body {
 }
 
 .feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: white;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 15px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+#pricing {
+  padding: 100px;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+@media (max-width: 991.20px) {
+  .rotate-img {
+    width: 65%;
+    transform: rotate(0);
+    position: static;
+  }
+
+  #title {
     text-align: center;
-    padding: 5%;
+  }
 }
