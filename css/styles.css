@@ -8,7 +8,6 @@
 
 #features {
   padding: 7% 15%;
-  background-color: white;
   position: relative;
 }
 
@@ -25,14 +24,7 @@
 .nav-item {
   padding: 0 18px;
 }
-
-h1 {
-  font-family: "Montserrat", sans-serif;
-  font-size: 3rem;
-  line-height: 1.5;
-  font-weight: 900;
-}
-
+  
 .nav-link {
   font-size: 1.2rem;
   font-family: "Montserrat", sans-serif;
@@ -41,6 +33,7 @@ h1 {
 
 body {
   font-family: "Montserrat", sans-serif;
+  text-align: center;
 }
 
 .rotate-img {
@@ -63,32 +56,18 @@ body {
   color: #ff4c68;
 }
 
-.font-style {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 600;
-  font-size: 1.5rem;
-}
-
 .paragraph-style {
   color: #8f8f8f;
 }
 
 .feature-box {
-  text-align: center;
   padding: 5%;
 }
 
-#testimonials {
-  text-align: center;
-  background-color: #ef8172;
-  color: white;
-}
+/* Testimonial */
 
-h2 {
-  font-family: "Montserrat", sans-serif;
-  font-size: 3rem;
-  line-height: 1.5;
-  font-weight: 900;
+#testimonials  {
+  background-color: #ef8172;
 }
 
 .testimonial-image {
@@ -97,9 +76,13 @@ h2 {
   margin: 20px;
 }
 
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
 #press {
   background-color: #ef8172;
-  text-align: center;
   padding-bottom: 3%;
 }
 
@@ -120,26 +103,47 @@ h2 {
   padding: 3% 2%;
 }
 
-#cta {
-  text-align: center;
-  background-color: #ff4c68;
-}
-
-h3 {
-  font-family: "Montserrat", sans-serif;
-  font-size: 3rem;
-  line-height: 1.5;
-  font-weight: 700;
-}
-
 #footer {
-  text-align: center;
   padding: 3%;
 }
 
 .icons-padding {
   padding: 1%;
   margin-bottom: 1%;
+}
+
+/* Headings */
+.big-heading {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 700;
+}
+
+.font-style {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+/* Section */
+.coloured-section {
+  background-color: #ff4c68;
+  color: white;
+}
+
+.white-section {
+  background-color: white;
 }
 
 @media (max-width: 991.20px) {
